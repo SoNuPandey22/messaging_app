@@ -9,6 +9,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+       <%= render :partial => 'layouts/header' %>
+    </header>
+    <div class="ui container">
+      <%= yield %>
+    </div>
   </body>
 </html>
