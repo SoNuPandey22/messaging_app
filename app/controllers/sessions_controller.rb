@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  before_action :logged_in_redirect only: [:new, :create]
+  before_action :logged_in_redirect, only: [:new, :create]
 
   def new 
   end 
